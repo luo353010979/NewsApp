@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/nav_news"
+            android:checkable="true"
+            android:checked="true"
+            android:icon="@drawable/ic_new"
+            android:title="新闻" />
+        <item
+            android:id="@+id/nav_gif"
+            android:checkable="false"
+            android:icon="@drawable/ic_png"
+            android:title="趣图" />
+        <item
+            android:id="@+id/nav_video"
+            android:checkable="false"
+            android:icon="@drawable/ic_joke"
+            android:title="段子" />
+    </group>
+
+
+</menu>
